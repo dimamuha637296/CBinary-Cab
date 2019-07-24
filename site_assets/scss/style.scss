@@ -334,7 +334,7 @@
   header .tel span[class^="icon"] {
     position: absolute;
     left: 0px;
-    top: 0px;
+    top: 5px;
     color: #ebe900;
     padding: 0;
     font-size: 36px;
@@ -868,9 +868,9 @@
   }
   
   .accountStatItem span[class^="icon"] {
-    font-size: 24px;
+    font-size: 28px;
     position: absolute;
-    top: 33px;
+    top: 29px;
     left: 0px;
   }
   
@@ -1617,26 +1617,6 @@
     border-bottom: 20px solid transparent;
   }
   
-  .amountItem input[type="radio"] + label .hex.perfectMoney {
-    background-image: url(../img/png/payMeth1.png);
-  }
-  
-  .amountItem input[type="radio"] + label .hex.payer {
-    background-image: url(../img/png/payMeth2.png);
-  }
-  
-  .amountItem input[type="radio"] + label .hex.bitcoin {
-    background-image: url(../img/png/payMeth3.png);
-  }
-  
-  .amountItem input[type="radio"] + label .hex.etherium {
-    background-image: url(../img/png/payMeth4.png);
-  }
-  
-  .amountItem input[type="radio"] + label .hex.litecoin {
-    background-image: url(../img/png/payMeth5.png);
-  }
-  
   .amountItem input[type="radio"]:checked + label .hideBlock {
     opacity: 1;
   }
@@ -1651,26 +1631,6 @@
   
   .amountItem input[type="radio"]:checked + label .hex:after {
     border-left-color: #ebe900;
-  }
-  
-  .amountItem input[type="radio"]:checked + label .hex.perfectMoney {
-    background-image: url(../img/png/payMethActive1.png);
-  }
-  
-  .amountItem input[type="radio"]:checked + label .hex.payer {
-    background-image: url(../img/png/payMethActive2.png);
-  }
-  
-  .amountItem input[type="radio"]:checked + label .hex.bitcoin {
-    background-image: url(../img/png/payMethActive3.png);
-  }
-  
-  .amountItem input[type="radio"]:checked + label .hex.etherium {
-    background-image: url(../img/png/payMethActive4.png);
-  }
-  
-  .amountItem input[type="radio"]:checked + label .hex.litecoin {
-    background-image: url(../img/png/payMethActive5.png);
   }
   
   .radioBlock input[type="radio"] {
@@ -2516,7 +2476,7 @@
       line-height: 6.5vw;
     }
     .accountStatItem span[class^="icon"] {
-      top: 2.3vw;
+      top: 2.35vw;
       font-size: 1.66vw;
     }
     footer {
@@ -2866,6 +2826,9 @@
     .accountStatItem .wrap > span:first-child,
     .accountStatItem .wrap > span:last-child {
       line-height: 6.6vw;
+    }
+    .accountStatItem span[class^="icon"] {
+      top: 2.45vw;
     }
     header {
       -ms-flex-wrap: wrap;
@@ -3750,7 +3713,7 @@
       left: 0px;
       top: 81px;
       background-color: #160e2e;
-      z-index: 1;
+      z-index: 2;
       margin: 0;
       // -webkit-transform: translateY(-100vh);
               // transform: translateY(-100vh);
@@ -4057,6 +4020,15 @@
                 left: -12px;
             }
         }
+    }
+    .stepsItem input, .stepsItem .selectric-wrapper, .radioBlock {
+      width: 48%;
+    }
+    .stepsItem .selectric {
+      width: 100%;
+    }
+    .radioBlock {
+      margin-left: 2%;
     }
     .steps.deposit {
       margin-bottom: 35px;
@@ -4389,6 +4361,7 @@
 
             width: 100%;
             margin-top: 10px;
+            margin-left: 0;
         }
         input,
         .selectric,

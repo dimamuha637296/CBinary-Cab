@@ -8,7 +8,7 @@ $(document).ready(function () {
         $("select").selectric();
     }
     // выпадающая дата
-    $('input[type="date"]').datepicker();
+    $('input.date').datepicker();
     // аккордион
     var accord = $('.accordItem');
     accord.find('.accordTop:not(.active)').siblings('div').slideUp();
@@ -55,4 +55,40 @@ $(document).ready(function () {
         $('.mainMenu').toggleClass('active');
         $('.mainMenu').stop().slideToggle();
     });
+
+    function clock() {
+        var date = new Date(),
+            day = date.getDate(),
+            month = date.getMonth(),
+            monthArr = ["JAN", "FEB", "MAR", "APR", "MAY", "JUN", "JUL", "AUG", "SEPT", "OCT", "NOV", "DEC"],
+            year = date.getFullYear(),
+            hour = date.getHours(),
+            min = date.getMinutes(),
+            sec = date.getSeconds();
+
+        if (day < 10) {
+            day = "0" + day;
+        }
+        if (hour < 10) {
+            hour = "0" + hour;
+        }
+        if (min < 10) {
+            min = "0" + min;
+        }
+        if (sec < 10) {
+            sec = "0" + sec;
+        }
+
+        document.getElementById("headerTime").innerHTML = hour + ":" + min + ":" + sec + "";
+        document.getElementById("headerDate").innerHTML = day + " " + monthArr[month] + " " + year;
+    }
+
+    var timer;
+
+    function clockStart() {
+        timer = setInterval(clock, 1000);
+        clock();
+    }
+
+    clockStart();
 });
