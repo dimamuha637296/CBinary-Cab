@@ -234,7 +234,7 @@
     background-size: cover;
     background-position: top center;
     background-repeat: no-repeat;
-    background-image: url(../img/jpg/mainBack.jpg);
+    background-image: url(../img/mainBack.jpg);
   }
   
   .pageTitle {
@@ -272,7 +272,7 @@
   header::before {
     content: '';
     display: block;
-    background-image: url(../img/png/headerBack.png);
+    background-image: url(../img/headerBack.png);
     background-size: 1920px;
     background-position: top center;
     background-repeat: no-repeat;
@@ -442,7 +442,7 @@
     left: 0px;
     width: 100%;
     height: 100%;
-    background-image: url(../img/png/soc-hex.png);
+    background-image: url(../img/soc-hex.png);
     @include back-img(contain, center, no-repeat);
     z-index: 1;
   }
@@ -537,7 +537,7 @@
   .mainMenu li.active::after {
     content: '';
     display: block;
-    background-image: url(../img/png/menuActive.png);
+    background-image: url(../img/menuActive.png);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -693,7 +693,7 @@
   
   .smartItem::before {
     content: '';
-    background-image: url(../img/png/smartBlockSemi.png);
+    background-image: url(../img/smartBlockSemi.png);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -823,7 +823,7 @@
   }
   
   .accountStatItem::before {
-    background-image: url(../img/png/tableBack.png);
+    background-image: url(../img/tableBack.png);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -936,7 +936,7 @@
   }
   
   input.dollar {
-    background-image: url(../img/png/dollar.png);
+    background-image: url(../img/dollar.png);
     background-size: 11px 15px;
     background-position: calc(100% - 20px) center;
     background-repeat: no-repeat;
@@ -997,7 +997,7 @@
   .fullHexBlock::before {
     content: '';
     display: block;
-    background-image: url(../img/png/hexagonBig.png);
+    background-image: url(../img/hexagonBig.png);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -1078,7 +1078,7 @@
     letter-spacing: 0.05em;
     text-transform: uppercase;
     text-align: center;
-    background-image: url(../img/png/saveBanner.png);
+    background-image: url(../img/saveBanner.png);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -1086,12 +1086,12 @@
   }
   
   .bannerTabs a:hover {
-    background-image: url(../img/png/saveBannerActive.png);
+    background-image: url(../img/saveBannerActive.png);
     color: #140c29;
   }
   
   .bannerTabs li.ui-tabs-active a {
-    background-image: url(../img/png/saveBannerActive.png);
+    background-image: url(../img/saveBannerActive.png);
     color: #140c29;
   }
   
@@ -1179,7 +1179,7 @@
     display: block;
     width: 100%;
     height: 221px;
-    background-image: url(../img/png/smartBlockFull.png);
+    background-image: url(../img/smartBlockFull.png);
     background-size: cover;
     background-position: left center;
     background-repeat: no-repeat;
@@ -1409,7 +1409,7 @@
     width: 0%;
     height: 100%;
     background-color: #00c194;
-    background-image: url(../img/png/progrImg.png);
+    background-image: url(../img/progrImg.png);
     background-size: center;
     background-position: cover;
     background-repeat: no-repeat;
@@ -1438,7 +1438,7 @@
   }
   
   .stepsItem.deposit .right .progressBack {
-    background-image: url(../img/png/backBar3.png);
+    background-image: url(../img/backBar3.png);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -1695,7 +1695,7 @@
     position: absolute;
     top: 0px;
     left: 0px;
-    background-image: url(../img/png/hexagonFullBorder.png);
+    background-image: url(../img/hexagonFullBorder.png);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -1947,6 +1947,7 @@
   
   .historyTable {
     width: 100%;
+    padding-right: 95px;
   }
   
   .historyTable .head .tCell {
@@ -1963,7 +1964,7 @@
   }
   
   .historyTable .head .tRow .back:before {
-    background-image: url(../img/png/tHead.png);
+    background-image: url(../img/tHead.png);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -1995,7 +1996,7 @@
     position: absolute;
     left: -45px;
     top: -25px;
-    background-image: url(../img/png/tRow.png);
+    background-image: url(../img/tRow.png);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -2112,7 +2113,7 @@
     display: block;
     width: 753px;
     height: 221px;
-    background-image: url(../img/png/hexagonSemi.png);
+    background-image: url(../img/hexagonSemi.png);
     background-size: cover;
     background-position: left center;
     background-repeat: no-repeat;
@@ -2162,7 +2163,7 @@
   }
   
   .referralItems .right .tRow.head .back:before {
-    background-image: url(../img/png/tHeadSemi.png);
+    background-image: url(../img/tHeadSemi.png);
   }
   
   .referralItems .right .tRow span {
@@ -2199,7 +2200,7 @@
     position: absolute;
     left: -31px;
     top: -25px;
-    background-image: url(../img/png/tRowSemi.png);
+    background-image: url(../img/tRowSemi.png);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -2255,7 +2256,7 @@
     position: absolute;
     top: -24px;
     left: -32px;
-    background-image: url(../img/png/tRow.png);
+    background-image: url(../img/tRow.png);
     background-size: cover;
     background-position: left center;
     background-repeat: no-repeat;
@@ -2263,7 +2264,7 @@
   }
   
   .referralItems .bottom .accordBottom.row::before {
-    background-image: url(../img/png/tHead.png);
+    background-image: url(../img/tHead.png);
   }
   
   .referralItems .bottom .accordBottom .text {
@@ -2310,13 +2311,13 @@
   }
   
   .referralItems .bottom .accordTop.active .accordBtn {
-    background-image: url(../img/png/accordMinus.png);
+    background-image: url(../img/accordMinus1.png);
   }
   
-  .referralItems .bottom .accordTop.active .accordBtn::before {
-    content: '-';
-    color: #ebe900;
-  }
+  // .referralItems .bottom .accordTop.active .accordBtn::before {
+  //   content: '-';
+  //   color: #ebe900;
+  // }
   
   .referralItems .bottom .accordBtn {
     position: absolute;
@@ -2325,7 +2326,7 @@
     width: 69px;
     height: 63px;
     background-color: transparent;
-    background-image: url(../img/png/accordPlus.png);
+    background-image: url(../img/accordPlus1.png);
     @include back-img(cover, center, no-repeat);
     border: none;
     font-size: 46px;
@@ -2340,14 +2341,14 @@
     transition: all, 0.5s;
   }
   
-  .referralItems .bottom .accordBtn::before {
-    content: '+';
-    position: absolute;
-    left: 23px;
-    top: 1px;
-    -webkit-transition: all, 0.5s;
-    transition: all, 0.5s;
-  }
+  // .referralItems .bottom .accordBtn::before {
+  //   content: '+';
+  //   position: absolute;
+  //   left: 23px;
+  //   top: 1px;
+  //   -webkit-transition: all, 0.5s;
+  //   transition: all, 0.5s;
+  // }
   
   .hamburger {
     display: none;
@@ -2524,7 +2525,7 @@
       display: block;
     }
     .historyTable {
-      padding-right: 1.38vw;
+      padding-right: 3.38vw;
     }
     .historyTable .tRow .back:before {
       width: 78.5vw;
@@ -2578,11 +2579,11 @@
                 width: 3.4vw;
                 height: 3.6vw;
                 font-size: 3.19vw;
-                &::before {
-                    left: 0.9vw;
-                    top: 0;
-                    line-height: initial;
-                }
+                // &::before {
+                //     left: 0.9vw;
+                //     top: 0;
+                //     line-height: initial;
+                // }
             }
             span,
             .accordBottom .text {
@@ -2668,7 +2669,7 @@
             height: 100%;
         }
         .numWrap {
-            background-image: url(../img/png/num-mob2.png);
+            background-image: url(../img/num-mob2.png);
             background-size: cover;
             background-position: center;
             background-repeat: no-repeat;
@@ -2697,7 +2698,7 @@
             right: 192px;
             top: 15px;
             .progressBack {
-                background-image: url(../img/png/backBar4.png);
+                background-image: url(../img/backBar4.png);
                 width: 192px;
                 height: 155px;
                 left: 0px;
@@ -2849,7 +2850,7 @@
       margin-bottom: 0;
       height: 184px;
       // @include box-shadow(0 0 20px 0 rgba(0,0,0,0.5));
-      background-image: url(../img/png/headerTab.png);
+      background-image: url(../img/headerTab.png);
       @include back-img(inherit, center, no-repeat);
     }
     header .right {
@@ -2916,7 +2917,7 @@
       width: 12.5vw;
     }
     .historyTable {
-      padding-right: 3vw;
+      padding-right: 3.3vw;
     }
     .historyTable .head .tCell {
       line-height: 1;
@@ -2973,7 +2974,7 @@
                 }
             }
             .accordBtn {
-                top: 1vw;
+                top: 0.95vw;
                 left: -1vw;
             }
             span,
@@ -3001,7 +3002,7 @@
             padding: 15px 25px 30px 95px;
         }
         .numWrap {
-            background-image: url(../img/png/num-mob2.png);
+            background-image: url(../img/num-mob2.png);
             @include back-img(cover, center, no-repeat);
             position: absolute;
             left: -40px;
@@ -3208,7 +3209,7 @@
       margin-top: -3.9vw;
     }
     .accountStatItem::before {
-      background-image: url(../img/png/tableBackTab.png);
+      background-image: url(../img/tableBackTab.png);
       width: 37.6vw;
       height: 12.7vw;
       left: -3.1vw;
@@ -3430,10 +3431,10 @@
                 font-size: 5.15vw;
                 top: calc((100% - 5.6vw)/2);
                 left: 0vw;
-                &::before {
-                    left: 1.5vw;
-                    top: 0;
-                }
+                // &::before {
+                //     left: 1.5vw;
+                //     top: 0;
+                // }
             }
             .name, .text {
                 display: block;
@@ -3545,7 +3546,7 @@
   
   @media (max-width: 991px) {
     body {
-      background-image: url(../img/jpg/mainBackMob.jpg);
+      background-image: url(../img/mainBackMob.jpg);
       background-size: contain;
       background-position: center top;
       background-repeat: no-repeat;
@@ -3664,7 +3665,7 @@
       margin-left: inherit;
     }
     .socials div::before {
-      background-image: url(../img/png/soc-hex-mob.png);
+      background-image: url(../img/soc-hex-mob.png);
       @include back-img(contain, center, no-repeat);
     }
     .hamburger {
@@ -3897,10 +3898,10 @@
                 height: 7.6vw;
                 font-size: 6.15vw;
                 top: calc((100% - 7.6vw)/2);
-                &::before {
-                    left: 2.18vw;
-                    top: 0.4vw;
-                }
+                // &::before {
+                //     left: 2.18vw;
+                //     top: 0.4vw;
+                // }
             }
             .accordItem {
               @include box-shadow(0 0 20px 0 rgba(0, 0, 0, 0.5));
@@ -3992,11 +3993,13 @@
     .amountItem {
         // width: fit-content;
         margin-bottom: 50px;
+        margin: 0 auto 50px;
         input[type="radio"] + label {
             // width: calc(100% + 22.5px);
             width: auto;
             height: auto;
             margin-top: 0;
+            margin: 0 11px;
             .hex {
                 width: 115px;
                 height: 45px;
@@ -4340,10 +4343,10 @@
                 width: 50px;
                 height: 50px;
                 font-size: 40px;
-                &::before {
-                    left: 15px;
-                    top: 3px;
-                }
+                // &::before {
+                //     left: 15px;
+                //     top: 3px;
+                // }
             }
             .title {
               padding-left: 2.5vw;

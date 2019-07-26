@@ -322,7 +322,7 @@ body {
   background-size: cover;
   background-position: top center;
   background-repeat: no-repeat;
-  background-image: url(../img/jpg/mainBack.jpg);
+  background-image: url(../img/mainBack.jpg);
 }
 
 .pageTitle {
@@ -360,7 +360,7 @@ header {
 header::before {
   content: '';
   display: block;
-  background-image: url(../img/png/headerBack.png);
+  background-image: url(../img/headerBack.png);
   background-size: 1920px;
   background-position: top center;
   background-repeat: no-repeat;
@@ -530,7 +530,7 @@ header .tel a:hover {
   left: 0px;
   width: 100%;
   height: 100%;
-  background-image: url(../img/png/soc-hex.png);
+  background-image: url(../img/soc-hex.png);
   background-size: contain;
   background-position: center;
   background-repeat: no-repeat;
@@ -615,7 +615,7 @@ header .tel a:hover {
 .mainMenu li.active::after {
   content: '';
   display: block;
-  background-image: url(../img/png/menuActive.png);
+  background-image: url(../img/menuActive.png);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -771,7 +771,7 @@ footer .footerMenu a:hover {
 
 .smartItem::before {
   content: '';
-  background-image: url(../img/png/smartBlockSemi.png);
+  background-image: url(../img/smartBlockSemi.png);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -901,7 +901,7 @@ footer .footerMenu a:hover {
 }
 
 .accountStatItem::before {
-  background-image: url(../img/png/tableBack.png);
+  background-image: url(../img/tableBack.png);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -1015,7 +1015,7 @@ input[type="password"] {
 }
 
 input.dollar {
-  background-image: url(../img/png/dollar.png);
+  background-image: url(../img/dollar.png);
   background-size: 11px 15px;
   background-position: calc(100% - 20px) center;
   background-repeat: no-repeat;
@@ -1076,7 +1076,7 @@ input.dollar {
 .fullHexBlock::before {
   content: '';
   display: block;
-  background-image: url(../img/png/hexagonBig.png);
+  background-image: url(../img/hexagonBig.png);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -1157,7 +1157,7 @@ input.dollar {
   letter-spacing: 0.05em;
   text-transform: uppercase;
   text-align: center;
-  background-image: url(../img/png/saveBanner.png);
+  background-image: url(../img/saveBanner.png);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -1165,12 +1165,12 @@ input.dollar {
 }
 
 .bannerTabs a:hover {
-  background-image: url(../img/png/saveBannerActive.png);
+  background-image: url(../img/saveBannerActive.png);
   color: #140c29;
 }
 
 .bannerTabs li.ui-tabs-active a {
-  background-image: url(../img/png/saveBannerActive.png);
+  background-image: url(../img/saveBannerActive.png);
   color: #140c29;
 }
 
@@ -1258,7 +1258,7 @@ input.dollar {
   display: block;
   width: 100%;
   height: 221px;
-  background-image: url(../img/png/smartBlockFull.png);
+  background-image: url(../img/smartBlockFull.png);
   background-size: cover;
   background-position: left center;
   background-repeat: no-repeat;
@@ -1488,7 +1488,7 @@ input.dollar {
   width: 0%;
   height: 100%;
   background-color: #00c194;
-  background-image: url(../img/png/progrImg.png);
+  background-image: url(../img/progrImg.png);
   background-size: center;
   background-position: cover;
   background-repeat: no-repeat;
@@ -1517,7 +1517,7 @@ input.dollar {
 }
 
 .stepsItem.deposit .right .progressBack {
-  background-image: url(../img/png/backBar3.png);
+  background-image: url(../img/backBar3.png);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -1774,7 +1774,7 @@ input.dollar {
   position: absolute;
   top: 0px;
   left: 0px;
-  background-image: url(../img/png/hexagonFullBorder.png);
+  background-image: url(../img/hexagonFullBorder.png);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -2026,6 +2026,7 @@ input.dollar {
 
 .historyTable {
   width: 100%;
+  padding-right: 95px;
 }
 
 .historyTable .head .tCell {
@@ -2042,7 +2043,7 @@ input.dollar {
 }
 
 .historyTable .head .tRow .back:before {
-  background-image: url(../img/png/tHead.png);
+  background-image: url(../img/tHead.png);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -2074,7 +2075,7 @@ input.dollar {
   position: absolute;
   left: -45px;
   top: -25px;
-  background-image: url(../img/png/tRow.png);
+  background-image: url(../img/tRow.png);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -2191,7 +2192,7 @@ input.dollar {
   display: block;
   width: 753px;
   height: 221px;
-  background-image: url(../img/png/hexagonSemi.png);
+  background-image: url(../img/hexagonSemi.png);
   background-size: cover;
   background-position: left center;
   background-repeat: no-repeat;
@@ -2241,7 +2242,7 @@ input.dollar {
 }
 
 .referralItems .right .tRow.head .back:before {
-  background-image: url(../img/png/tHeadSemi.png);
+  background-image: url(../img/tHeadSemi.png);
 }
 
 .referralItems .right .tRow span {
@@ -2278,7 +2279,7 @@ input.dollar {
   position: absolute;
   left: -31px;
   top: -25px;
-  background-image: url(../img/png/tRowSemi.png);
+  background-image: url(../img/tRowSemi.png);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -2334,7 +2335,7 @@ input.dollar {
   position: absolute;
   top: -24px;
   left: -32px;
-  background-image: url(../img/png/tRow.png);
+  background-image: url(../img/tRow.png);
   background-size: cover;
   background-position: left center;
   background-repeat: no-repeat;
@@ -2342,7 +2343,7 @@ input.dollar {
 }
 
 .referralItems .bottom .accordBottom.row::before {
-  background-image: url(../img/png/tHead.png);
+  background-image: url(../img/tHead.png);
 }
 
 .referralItems .bottom .accordBottom .text {
@@ -2391,12 +2392,7 @@ input.dollar {
 }
 
 .referralItems .bottom .accordTop.active .accordBtn {
-  background-image: url(../img/png/accordMinus.png);
-}
-
-.referralItems .bottom .accordTop.active .accordBtn::before {
-  content: '-';
-  color: #ebe900;
+  background-image: url(../img/accordMinus1.png);
 }
 
 .referralItems .bottom .accordBtn {
@@ -2406,7 +2402,7 @@ input.dollar {
   width: 69px;
   height: 63px;
   background-color: transparent;
-  background-image: url(../img/png/accordPlus.png);
+  background-image: url(../img/accordPlus1.png);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -2419,15 +2415,6 @@ input.dollar {
   text-align: center;
   padding: 0;
   cursor: pointer;
-  -webkit-transition: all, 0.5s;
-  transition: all, 0.5s;
-}
-
-.referralItems .bottom .accordBtn::before {
-  content: '+';
-  position: absolute;
-  left: 23px;
-  top: 1px;
   -webkit-transition: all, 0.5s;
   transition: all, 0.5s;
 }
@@ -2610,7 +2597,7 @@ input.dollar {
     display: block;
   }
   .historyTable {
-    padding-right: 1.38vw;
+    padding-right: 3.38vw;
   }
   .historyTable .tRow .back:before {
     width: 78.5vw;
@@ -2654,11 +2641,6 @@ input.dollar {
     width: 3.4vw;
     height: 3.6vw;
     font-size: 3.19vw;
-  }
-  .referralItems .bottom .accordBtn::before {
-    left: 0.9vw;
-    top: 0;
-    line-height: initial;
   }
   .referralItems .bottom span,
   .referralItems .bottom .accordBottom .text {
@@ -2741,7 +2723,7 @@ input.dollar {
     height: 100%;
   }
   .stepsItem.deposit .numWrap {
-    background-image: url(../img/png/num-mob2.png);
+    background-image: url(../img/num-mob2.png);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -2773,7 +2755,7 @@ input.dollar {
     top: 15px;
   }
   .stepsItem.deposit .right .progressBack {
-    background-image: url(../img/png/backBar4.png);
+    background-image: url(../img/backBar4.png);
     width: 192px;
     height: 155px;
     left: 0px;
@@ -2923,7 +2905,7 @@ input.dollar {
     padding: 10px 0 10px 40px;
     margin-bottom: 0;
     height: 184px;
-    background-image: url(../img/png/headerTab.png);
+    background-image: url(../img/headerTab.png);
     background-size: inherit;
     background-position: center;
     background-repeat: no-repeat;
@@ -2992,7 +2974,7 @@ input.dollar {
     width: 12.5vw;
   }
   .historyTable {
-    padding-right: 3vw;
+    padding-right: 3.3vw;
   }
   .historyTable .head .tCell {
     line-height: 1;
@@ -3041,7 +3023,7 @@ input.dollar {
     height: 5.5vw;
   }
   .referralItems .bottom .accordBtn {
-    top: 1vw;
+    top: 0.95vw;
     left: -1vw;
   }
   .referralItems .bottom span,
@@ -3070,7 +3052,7 @@ input.dollar {
     padding: 15px 25px 30px 95px;
   }
   .stepsItem .numWrap {
-    background-image: url(../img/png/num-mob2.png);
+    background-image: url(../img/num-mob2.png);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -3273,7 +3255,7 @@ input.dollar {
     margin-top: -3.9vw;
   }
   .accountStatItem::before {
-    background-image: url(../img/png/tableBackTab.png);
+    background-image: url(../img/tableBackTab.png);
     width: 37.6vw;
     height: 12.7vw;
     left: -3.1vw;
@@ -3492,10 +3474,6 @@ input.dollar {
     top: calc((100% - 5.6vw)/2);
     left: 0vw;
   }
-  .referralItems .bottom .accordBtn::before {
-    left: 1.5vw;
-    top: 0;
-  }
   .referralItems .bottom .name, .referralItems .bottom .text {
     display: block;
     line-height: 30px;
@@ -3587,7 +3565,7 @@ input.dollar {
 
 @media (max-width: 991px) {
   body {
-    background-image: url(../img/jpg/mainBackMob.jpg);
+    background-image: url(../img/mainBackMob.jpg);
     background-size: contain;
     background-position: center top;
     background-repeat: no-repeat;
@@ -3710,7 +3688,7 @@ input.dollar {
     margin-left: inherit;
   }
   .socials div::before {
-    background-image: url(../img/png/soc-hex-mob.png);
+    background-image: url(../img/soc-hex-mob.png);
     background-size: contain;
     background-position: center;
     background-repeat: no-repeat;
@@ -3936,10 +3914,6 @@ input.dollar {
     font-size: 6.15vw;
     top: calc((100% - 7.6vw)/2);
   }
-  .referralItems .bottom .accordBtn::before {
-    left: 2.18vw;
-    top: 0.4vw;
-  }
   .referralItems .bottom .accordItem {
     -webkit-box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.5);
     box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.5);
@@ -4039,11 +4013,13 @@ input.dollar {
   }
   .amountItem {
     margin-bottom: 50px;
+    margin: 0 auto 50px;
   }
   .amountItem input[type="radio"] + label {
     width: auto;
     height: auto;
     margin-top: 0;
+    margin: 0 11px;
   }
   .amountItem input[type="radio"] + label .hex {
     width: 115px;
@@ -4340,10 +4316,6 @@ input.dollar {
     width: 50px;
     height: 50px;
     font-size: 40px;
-  }
-  .referralItems .bottom .accordBtn::before {
-    left: 15px;
-    top: 3px;
   }
   .referralItems .bottom .title {
     padding-left: 2.5vw;
